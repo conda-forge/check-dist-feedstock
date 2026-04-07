@@ -1,6 +1,6 @@
 context:
   name: check-dist
-  version: "0.1.4"
+  version: "0.1.5"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/check_dist/check_dist-${{ version }}.tar.gz
-  sha256: 316bd2ff595c989601c823043c6304bb7d190dfd313e6325e1018744271e79a0
+  sha256: cfca372a6f4d623ed82ebe67b51068d015d8fd3e969fafc74e1da580fdd45768
 
 build:
   number: 0
